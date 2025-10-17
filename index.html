@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-[rgba(177,186,247,0.2)]">
     <header>
-        <nav class="lg:px-32 lg:pt-6">
-            <div class="navbar bg-base-100 shadow-sm">
+        <nav class="lg:px-32 lg:pt-6 ">
+            <div class="navbar bg-base-100 shadow-sm  rounded-2xl">
   <div class="navbar-start">
     
     <a class=" text-xl pl-6 flex ">
@@ -21,15 +21,53 @@
   
   
   <div class="navbar-end">
-     <div class="grid grid-cols-2 gap-2 ">
-    <img src="assets/checkbox.png" alt="">
+     <div class="flex gap-2 mr-7 p-2 bg-[rgba(177,186,247,0.2)] rounded-full">
+    <img class="w-4 h-4 mt-1" src="assets/checkbox.png" alt="">
     <h2>23</h2>
   </div>
-    <a class="btn pr-6"><img src="assets/theme-btn.png" alt=""></a>
+    <div class="cursor-pointer">
+      <img src="assets/theme-btn.png" alt="">
+    </div>
   </div>
 </div>
         </nav>
     </header>
+    <main class="bg-white ml-36 mt-5 mr-6 w-80%">
+      <section class="p-6 rounded-xl">
+        <div class="grid grid-cols-3 gap-5">
+        <div class="flex items-center gap-5  bg-[rgba(177,186,247,0.2)] p-9 rounded-xl">
+          <img class="w-4 h-4 mt-1" src="assets/checkbox.png" alt="">
+          <div>
+            <p>Task Assigned</p>
+            <h3>05</h3>
+          </div>
+        </div>
+        <div>
+          <div class="grid grid-cols-2 col-span-4  p-8 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] ... rounded-xl ">
+            <img src="assets/board.png" alt="">
+            <div>
+              <p>Discover Something </p>
+              <p>New Today!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex  items-center gap-5 bg-[rgba(177,186,247,0.2)] p-9 rounded-xl">
+          <img class="w-4 h-4 mt-1" src="assets/calender.png" alt="">
+          <div>
+            <p>wed,</p>
+            <h3>
+Jul 28 2025 </h3>
+          </div>
+        </div>
+        </div>
+      </section>
+
+   
     
+     </main>
+     <aside class="fixed right-0 top-36 h-full w-64  p-4">
+ 
+</aside>
+     
 </body>
 </html>
