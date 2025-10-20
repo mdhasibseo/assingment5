@@ -29,7 +29,9 @@ document.getElementById("frist-btn").addEventListener("click", function(event){
     
  `
  const html =document.getElementById("add-html");
- html.appendChild(div)
+ html.appendChild(div);
+
+ document.getElementById("frist-btn").disabled = true
 
 })
 
@@ -43,7 +45,8 @@ document.getElementById("second-btn").addEventListener("click", function(event){
     <h2>you click second button</h2>`
 
     const addHtml = document.getElementById("add-html");
-    addHtml.appendChild(div)
+    addHtml.appendChild(div);
+    document.getElementById("second-btn").disabled = true
 })
 
 document.getElementById("third-btn").addEventListener("click", function(event){
@@ -57,6 +60,7 @@ document.getElementById("third-btn").addEventListener("click", function(event){
 
     const addHtml = document.getElementById("add-html");
     addHtml.appendChild(div)
+    document.getElementById("third-btn").disabled = true
 })
 
 document.getElementById("fourth-btn").addEventListener("click", function(event){
@@ -70,6 +74,7 @@ document.getElementById("fourth-btn").addEventListener("click", function(event){
 
     const addHtml = document.getElementById("add-html");
     addHtml.appendChild(div)
+    document.getElementById("fourth-btn").disabled = true
 })
 
 document.getElementById("fifth-btn").addEventListener("click", function(event){
@@ -83,6 +88,7 @@ document.getElementById("fifth-btn").addEventListener("click", function(event){
 
     const addHtml = document.getElementById("add-html");
     addHtml.appendChild(div)
+     document.getElementById("fifth-btn").disabled = true
 })
 
 document.getElementById("sixth-btn").addEventListener("click", function(event){
@@ -96,6 +102,7 @@ document.getElementById("sixth-btn").addEventListener("click", function(event){
 
     const addHtml = document.getElementById("add-html");
     addHtml.appendChild(div)
+     document.getElementById("sixth-btn").disabled = true
 })
 
 
